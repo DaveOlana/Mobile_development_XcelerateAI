@@ -1,18 +1,23 @@
-# 🎯 Mission 1.2: First JS Mission Log
+# **ERROR ENCOUNTERED:**
 
-## 📋 Mission Overview
-Learn how to define variable strings, log outputs, and write code files in JavaScript to serve as custom logs.
+PS C:\Users\HP\Downloads\Mobile_development_XcelerateAI\week-01-launch-environment\mission-1.2-first-js-mission-log> node mission-log.js 
+C:\Users\HP\Downloads\Mobile_development_XcelerateAI\week-01-launch-environment\mission-1.2-first-js-mission-log\mission-log.js:11
+console.log("The boss mission:", finalMission
+                                 ^^^^^^^^^^^^
 
----
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1787:18)
+    at Module._compile (node:internal/modules/cjs/loader:1828:20)
+    at Object..js (node:internal/modules/cjs/loader:1985:10)
+    at Module.load (node:internal/modules/cjs/loader:1577:32)
+    at Module._load (node:internal/modules/cjs/loader:1379:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47
 
-## 🛠️ Implementation Details
-Created a `mission-log.js` script containing variables representing current mission milestones and logging the stats.
+Node.js v24.16.0
 
-### Key Files:
-- [mission-log.js](./mission-log.js)
+## INTERPRETATION:
 
----
-
-## 💡 Key Concepts Learned
-- **`console.log()` usage:** Logging messages and simple variables to standard output.
-- **Node.js execution:** Running custom JavaScript scripts locally.
+>The issue is from the "mission-log" file, Line 11.
+Line 8: A missing **)** is causing the error and hence, must be inputted into the code.
