@@ -1,7 +1,7 @@
 let weeks = 12;
 let minHoursPerWeek = 25;
 let maxHoursPerWeek = 30;
-let totalHoursSpent = 500;
+let totalHoursSpent = 50;
 let completedWeeks = 2;
 
 let averageHoursPerWeek = totalHoursSpent/completedWeeks; //250
